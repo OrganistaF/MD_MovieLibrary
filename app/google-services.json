@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "976098262310",
+    "project_id": "md-themovielibrary",
+    "storage_bucket": "md-themovielibrary.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:976098262310:android:4a3184fa165311442b55e7",
+        "android_client_info": {
+          "package_name": "edu.utad.movielibrary"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkT8b-xctZRKGZJhge7RuxzLGZWTy3BO8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragments.auth.SignUpFragment">
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.25" />
+
+
+    <TextView
+        android:id="@+id/singUpTittle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:textSize="30dp"
+        android:paddingStart="80dp"
+        android:paddingEnd="80dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <EditText
+        android:id="@+id/editName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter your user name"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="@+id/singUpTittle"
+        app:layout_constraintStart_toStartOf="@+id/singUpTittle"
+        app:layout_constraintTop_toTopOf="@+id/guideline" />
+
+    <EditText
+        android:id="@+id/editMail"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter your e-mail"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="@+id/editName"
+        app:layout_constraintStart_toStartOf="@+id/editName"
+        app:layout_constraintTop_toBottomOf="@+id/editName" />
+
+    <EditText
+        android:id="@+id/editPass"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:hint="Enter your password"
+        app:layout_constraintEnd_toEndOf="@+id/singUpTittle"
+        app:layout_constraintStart_toStartOf="@+id/singUpTittle"
+        app:layout_constraintTop_toBottomOf="@+id/editMail" />
+
+    <EditText
+        android:id="@+id/editPass2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:hint="Repeat your password"
+        app:layout_constraintEnd_toEndOf="@+id/singUpTittle"
+        app:layout_constraintStart_toStartOf="@+id/singUpTittle"
+        app:layout_constraintTop_toBottomOf="@+id/editPass" />
+
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textSize="18dp"
+        android:layout_marginTop="35dp"
+        android:backgroundTint="#869879"
+        app:layout_constraintEnd_toEndOf="@+id/singUpTittle"
+        app:layout_constraintStart_toStartOf="@+id/singUpTittle"
+        app:layout_constraintTop_toBottomOf="@+id/editPass2" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

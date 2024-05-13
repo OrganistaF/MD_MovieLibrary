@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="edu.utad.movielibrary.ui.MainActivity">
+    <item
+        android:id="@+id/action_top_rated_movies"
+        android:orderInCategory="1"
+        android:title="Top Rated Movies"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_popular_series"
+        android:orderInCategory="2"
+        android:title="Popular Series"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_favorites"
+        android:orderInCategory="3"
+        android:title="Favorites"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_log_out"
+        android:orderInCategory="4"
+        android:title="Log Out"
+        app:showAsAction="never" />
+</menu>
